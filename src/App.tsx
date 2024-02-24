@@ -6,6 +6,7 @@ import Home from './pages/home.tsx';
 import NotFound from './pages/notfoundpage.tsx'; 
 import Projects from './pages/projects.tsx'; 
 import Intro from './pages/intro.tsx'; 
+import Contact from './pages/contact.tsx';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/intro" element={<Intro />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

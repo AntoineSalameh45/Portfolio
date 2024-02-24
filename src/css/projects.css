@@ -122,9 +122,5 @@
     .grid-container {
       grid-template-columns: 1fr; /* Change to single column layout */
     }
-  
-    .card {
-      /* Adjust styles for smaller screens */
-    }
   }
   

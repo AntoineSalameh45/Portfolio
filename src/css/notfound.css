@@ -1,0 +1,30 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Align content in the center, you had it as flex-start */
+    height: 50vh; /* Adjust this if needed */
+    padding: 0 20px; /* Optional: Add padding for better spacing */
+  }
+  
+  .center-container h1,
+  .center-container p {
+    max-width: 600px; /* You may want to cap the width for readability */
+    margin-left: auto; /* These two lines center your h1/p elements */
+    margin-right: auto; /* in the .center-container when there's space */
+    width: 100%; /* This makes them responsive, adjusting to the container width */
+  }
+  
+  @media screen and (min-width: 768px) {
+    body {
+      position: relative;
+       /*left: 30%; Be careful with this, as it may cause unexpected horizontal scrolling
+      overflow: hidden; */
+    }
+    .center-container {
+      /* Your center-container rules are duplicating some styles unnecessarily */
+      align-items: center; /* Re-aligned items to be centered horizontally */
+      padding: 0 40px; /* Increased padding on larger screens for better spacing */
+    }
+    
+  }
