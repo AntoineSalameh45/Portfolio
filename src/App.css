@@ -35,16 +35,18 @@ body {
 
 nav {
   height: 100px;
-  width: 100%;
   background-color: #0065b200;
   display: flex;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  border-radius: 50px;
+  margin: 10px 0;
+  padding: 10px;
 
   ul {
     list-style: none;
@@ -59,19 +61,21 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.5;
   }
 
   li:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: dashed;
     text-underline-offset: 5px;
-    text-decoration-color: #89cff0;
+    text-decoration-color: #fff;
+    opacity: 1;
   }
 
   a,
   a:hover,
   a:visited {
-    color: #ffffff;
+    color: #fff;
   }
 
   img {
@@ -80,6 +84,11 @@ nav {
     margin-right: 10px;
     z-index: 1;
   }
+}
+
+nav.scrolled {
+  background-color: #000; /* Background color after scrolling */
+  border: 2px solid #fff;
 }
 
 .typing-animation-container {

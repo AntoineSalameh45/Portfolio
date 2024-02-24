@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 
 const Navbar: React.FC = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav>
-      {/* <img src="src\assets\BIG-A-wallpaper-2-(3).png" alt="big-a-logo" /> */}
+    <nav className={scrolled ? "scrolled" : ""}>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/intro">Intro</a></li>
