@@ -11,32 +11,31 @@ import RobbieVideo from '../assets/robbie/test1.mp4';
 const Projects: React.FC = () => {
  return (
     <div>
-      <p>Here I'll be showcasing some of my personal projects.</p>
       <div className="grid-container">
         <div className="card">
           <h2>Discord Bots <i className="fa-brands fa-discord"></i></h2>
           <ul>
             <li>
               <div>
-                <img src={DateMikeImage} alt='Date Mike' />
+                <img src={DateMikeImage} alt='Date Mike' className='pfp'/>
                 Date Mike a discord.js v14 bot based on the iconic Michael Scott from "The Office".
               </div>
             </li>
             <li>
               <div>
-                <img src={JakeBlackImage} alt='Jake Black' />
+                <img src={JakeBlackImage} alt='Jake Black' className='pfp'/>
                 Jake Black a discord.py bot to play 21.
               </div>
             </li>
             <li>
               <div>
-                <img src={StonksImage} alt='Stonks' />
+                <img src={StonksImage} alt='Stonks' className='pfp'/>
                 Stonk Bot a discord.py bot that gives you real-time information about the stock market + crypto currencies.
               </div>
             </li>
             <li>
               <div>
-                <img src={StonksImage} alt='Motivation' />
+                <img src={StonksImage} alt='Motivation' className='pfp'/>
                 Stonk Bot a discord.py bot that gives you real-time information about the stock market + crypto currencies.
               </div>
             </li>
