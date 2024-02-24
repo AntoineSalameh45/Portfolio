@@ -1,8 +1,9 @@
 import React from 'react';
+import '../App.css';
 
 const Intro: React.FC = () => {
   return (
-    <div>
+    <div className="intro-card">
       <h1>Welcome to My Portfolio</h1>
       <p>
         Hello! My name is Antoine and I'm a web developer. I specialize in
