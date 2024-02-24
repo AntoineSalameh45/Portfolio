@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 
 const TypingAnimation: React.FC = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const phrases = ['<Antoine Salameh />', '<Frontend Dev />', '<Discord Bots />'];
   const [text, setText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);

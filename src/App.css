@@ -25,9 +25,9 @@
 
 body {
   /*background-color: #b9d9eb;*/
-  display: flex;
+  /* display: flex;
   align-items: center; 
-  min-height: 200vh; 
+  min-height: 200vh;  */
   margin: 0; 
   margin-bottom: 100px;
   color: #fff;
@@ -160,14 +160,21 @@ footer {
   padding: 0.5em;
 }
 
+.centering {
+  display: flex;
+  align-items:  center;
+  align-content: center;
+  padding: 0 calc((100vw - 800px) / 2);
+}
+
 .container {
+  width: 800px;
+}
+
+.content {
   display: flexbox;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-}
-
-.container > div {
   max-width: 800px;
   padding: 20px;
   border: 2px solid #ccc; 
