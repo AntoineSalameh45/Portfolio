@@ -3,6 +3,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
+      <hr></hr>
       <ul className="social-list">
         <li className="social-list__item">
           <a className="social-list__link" href="https://twitter.com/BiG_A_Codes" target="_blank" rel="noopener noreferrer">
