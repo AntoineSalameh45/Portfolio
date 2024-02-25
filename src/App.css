@@ -90,7 +90,7 @@ body {
 }
 
 
-footer {
+/* footer {
   position:static; 
   left: 100%;
   bottom: 0;
@@ -131,7 +131,7 @@ footer {
 
 .social-list__link {
   padding: 0.5em;
-}
+} */
 
 .centering {
   display: flex;

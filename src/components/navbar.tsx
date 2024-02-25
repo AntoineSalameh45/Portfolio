@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
         <li><a href="/" className={activeLink === "/" ? "active" : ""}>Home</a></li>
         <li><a href="/intro" className={activeLink === "/intro" ? "active" : ""}>Intro</a></li>
         <li><a href="/projects" className={activeLink === "/projects" ? "active" : ""}>Projects</a></li>
-        <li><a href="/contact" className={activeLink === "" ? "active" : ""}>Contact</a></li>
+        <li><a href="/contact" className={activeLink === "/contact" ? "active" : ""}>Contact</a></li>
       </ul>
     </nav>
   );

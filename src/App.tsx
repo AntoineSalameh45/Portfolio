@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Footer from './components/footer.tsx';
 import Navbar from './components/navbar.tsx';
 import Home from './pages/home.tsx'; 
 import NotFound from './pages/notfoundpage.tsx'; 
@@ -21,7 +20,6 @@ function App() {
               <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer />
     </Router>
   );
 }
