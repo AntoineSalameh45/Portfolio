@@ -5,7 +5,7 @@ import '../App.css';
 const Home: React.FC = () => {
   return (
     <div className='centering'>
-        <div className="container">
+        <div className="hm-container">
             <div className="content">
                 <TypingAnimation />
                 <p>

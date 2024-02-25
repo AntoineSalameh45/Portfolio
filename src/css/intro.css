@@ -24,9 +24,9 @@
   }
   
   @media screen and (max-width: 768px) {
-    .into-container {
-        width: 90%;
-        padding: 0 20px;
+    .intro-container {
+        width: 95%;
+        margin: 0 20px;
     }
     .didyaknow{
         width: 90%;
