@@ -1,73 +1,47 @@
+
 ---
 
-# Personal Portfolio Website
+# Portfolio Website
 
-Welcome to my personal portfolio website project! This project serves as an online portfolio to showcase my skills, projects, and experiences as a web developer.
+## Description
 
-## Overview
+This is a portfolio website showcasing the projects, skills, and contact information of the developer. It consists of the following pages:
 
-This portfolio website is built using React, TypeScript, and Vite. It features a modern and responsive design, allowing visitors to easily navigate through my projects, view my skills and experiences, and get in touch with me.
+- **Home:** Landing page providing an overview of the portfolio.
+- **Intro:** Introduction page featuring information about the developer.
+- **Projects:** Page showcasing the developer's projects and skills.
+- **Contact:** Page containing contact information and links to social media profiles.
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
-- **TypeScript**: A statically typed superset of JavaScript that adds type annotations and other features.
-- **Vite**: A fast development server and build tool for modern web development workflows.
-- **React Router**: For client-side routing, enabling navigation between different pages of the website.
-- **CSS Modules**: To style React components with scoped CSS.
+- HTML
+- CSS
+- TypeScript (TS)
+- JavaScript (JS)
+- React
+- Vite
 
-## Features
+## Issues Faced
 
-- **Home Page**: A landing page introducing myself and providing an overview of the website.
-- **Projects Page**: A page showcasing my projects, including descriptions, links, and screenshots.
-- **Skills Page**: A page listing my skills and technologies I'm proficient in.
-- **Contact Page**: A page with contact information and a contact form for visitors to reach out to me.
-- **Responsive Design**: The website is fully responsive and optimized for various screen sizes and devices.
+### Centering Design and Responsiveness
 
-## Getting Started
+One of the major challenges encountered during the development of this project was ensuring proper centering of the design elements and achieving responsiveness across various devices. Despite implementing several CSS techniques and media queries, achieving perfect alignment and responsiveness proved to be elusive.
 
-To run this project locally, follow these steps:
+#### Challenges Faced:
 
-1. Clone this repository to your local machine:
+- Difficulty in centering elements horizontally and vertically.
+- Inconsistencies in layout rendering across different screen sizes and resolutions.
+- Alignment issues when transitioning between different viewport sizes.
 
-   ```bash
-   git clone https://github.com/your-username/portfolio-website.git
-   ```
+#### Solutions Attempted:
 
-2. Navigate to the project directory:
+- Implemented flexbox and grid layout systems for better alignment control.
+- Sought assistance from online resources and community forums.
 
-   ```bash
-   cd portfolio-website
-   ```
+## Future Improvements
 
-3. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open your browser and navigate to `http://localhost:3000` to view the website.
-
-## Screenshots
-
-![Home Page](./screenshots/home.png)
-*Home Page*
-
-![Projects Page](./screenshots/projects.png)
-*Projects Page*
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Implement additional pages or sections to showcase more projects or skills.
+- Enhance the design and user experience of the portfolio website.
+- Optimize performance for faster loading times.
 
 ---
