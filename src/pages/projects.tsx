@@ -2,6 +2,7 @@ import '../css/projects.css';
 import DateMikeImage from '../assets/disc-bots/DateMike.jpg'; 
 import JakeBlackImage from '../assets/disc-bots/JakeBlack.jpg';
 import StonksImage from '../assets/disc-bots/Stonks.jpg';
+import MotivationImage from '../assets/disc-bots/discord-logo-icon-editorial-free-vector.jpg';
 import Website1Image from '../assets/website-designs/getns-dorm.jpg';
 import Website2Image from '../assets/website-designs/goatee.jpg';
 import Website3Image from '../assets/website-designs/PlanetBlue sc.jpg';
@@ -35,8 +36,10 @@ const Projects: React.FC = () => {
             </li>
             <li>
               <div>
-                <img src={StonksImage} alt='Motivation' className='pfp'/>
-                Stonk Bot a discord.py bot that gives you real-time information about the stock market + crypto currencies.
+                <img src={MotivationImage} alt='Motivation' className='pfp'/>
+                Motivation Bot a discord.py bot that sends quotes on a private discord channel.
+                It was actually my first hands-on experience with disocrd bots but compared to the 
+                new methods my bot is pretty outdated.
               </div>
             </li>
           </ul>
