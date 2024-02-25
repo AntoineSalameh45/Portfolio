@@ -48,10 +48,7 @@
 }
 
 body {
-  /*background-color: #b9d9eb;*/
-  /* display: flex;
-  align-items: center; 
-  min-height: 200vh;  */
+  display: flex;
   margin: 0; 
   margin-bottom: 100px;
   color: #fff;
