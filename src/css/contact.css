@@ -27,13 +27,11 @@
     color: #555;
     text-align: left;
   }
-  .fa-solid a,
-  .fab a{
+  .contact-fa{
     font-size: 2em;
     margin: 5px 15px;
     color:#0065b269;
   }
-  .fa-solid a:hover,
-  .fab a:hover {
+  .contact-fa:hover {
     color:#0066b2;
   }
