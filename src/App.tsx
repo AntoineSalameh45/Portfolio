@@ -6,7 +6,7 @@ import NotFound from './pages/notfoundpage.tsx';
 import Projects from './pages/projects.tsx'; 
 import Intro from './pages/intro.tsx'; 
 import Contact from './pages/contact.tsx';
-
+ 
 function App() {
   return (
     <Router>

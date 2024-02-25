@@ -14,23 +14,23 @@ const Contact: React.FC = () => {
                 </p>
                 <div>
                     <a href="https://www.linkedin.com/in/antoine-salameh-7705471ab/" target="_blank" rel="noopener noreferrer" className='fa'>
-                        <i className="fa-brands fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                     </a>
 
                     <a href="mailto: antoine.salameh.45@gmail.com" target="_blank" rel="noopener noreferrer" className='fa'>
-                    <i className="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-square-envelope"></i>
                     </a>
 
                     <a href="tel:9613913210" target="_blank" rel="noopener noreferrer" className='fa'>
-                    <i className="fa-solid fa-phone"></i>
+                    <i className="fa-solid fa-square-phone"></i>
                     </a>
                     
                     <a href="https://wa.me/9613913210" target="_blank" rel="noopener noreferrer" className='fa'>
-                    <i className="fa-brands fa-whatsapp"></i>
+                    <i className="fab fa-square-whatsapp"></i>
                     </a>
 
                     <a href="https://github.com/AntoineSalameh45" target="_blank" rel="noopener noreferrer" className='fa'>
-                    <i className="fa-brands fa-github"></i>
+                    <i className="fab fa-square-github"></i>
                     </a>
                 </div>
                 

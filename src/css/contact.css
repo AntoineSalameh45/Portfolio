@@ -10,7 +10,7 @@
     text-align: center;
     margin-top: 40px;
     background-color: #ffffffc4;
-    border-radius: 11px;
+    border-radius: 20px;
     border: 3px solid #0066b2;
     padding: 0 20px 5px;
     max-width: 600px;
@@ -27,11 +27,13 @@
     color: #555;
     text-align: left;
   }
-  .fa {
+  .fa-solid a,
+  .fab a{
     font-size: 2em;
     margin: 5px 15px;
     color:#0065b269;
   }
-  .fa:hover {
+  .fa-solid a:hover,
+  .fab a:hover {
     color:#0066b2;
   }
