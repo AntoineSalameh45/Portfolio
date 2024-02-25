@@ -27,11 +27,11 @@
     color: #555;
     text-align: left;
   }
-  .contact-fa{
+  .about-section > div a{
     font-size: 2em;
     margin: 5px 15px;
     color:#0065b269;
   }
-  .contact-fa:hover {
+  .about-section > div a:hover {
     color:#0066b2;
   }

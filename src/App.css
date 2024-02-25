@@ -89,29 +89,6 @@ body {
   to { opacity: 0; }
 }
 
-.centering {
-  display: flex;
-  align-items:  center;
-  align-content: center;
-  padding: 0 calc((100vw - 800px) / 2);
-}
-
-.container {
-  width: 800px;
-}
-.didyaknow {
-  align-self: center;
-    background-color: #0065b269;
-    width: 600px;
-    border-radius: 11px;
-    padding: 20px;
-    font-size: smaller;
-    border: 2px solid #fff;
-
-    .fa-brands{
-      font-size: smaller;
-    }
-}
 
 .content {
   display: flexbox;

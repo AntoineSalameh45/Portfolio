@@ -23,7 +23,6 @@ const Navbar: React.FC = () => {
     window.addEventListener("scroll", handleScroll);
     checkActiveLink();
 
-    // Cleanup the event listener when component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -31,11 +30,17 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={isScrolled ? "scrolled" : ""}>
-      <ul>
+      <ul className="pc">
         <li><a href="/" className={activeLink === "/" ? "active" : ""}>Home</a></li>
         <li><a href="/intro" className={activeLink === "/intro" ? "active" : ""}>Intro</a></li>
         <li><a href="/projects" className={activeLink === "/projects" ? "active" : ""}>Projects</a></li>
         <li><a href="/contact" className={activeLink === "/contact" ? "active" : ""}>Contact</a></li>
+      </ul>
+      <ul className="mobi">
+        <li><a href="/" className="/">Home</a></li>
+        <li><a href="/intro" className="/intro">Intro</a></li>
+        <li><a href="/projects" className="/projects">Projects</a></li>
+        <li><a href="/contact" className="/contact">Contact</a></li>
       </ul>
     </nav>
   );

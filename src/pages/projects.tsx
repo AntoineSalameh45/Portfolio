@@ -12,7 +12,7 @@ import RobbieVideo from '../assets/robbie/test1.mp4';
 const Projects: React.FC = () => {
  return (
     <div>
-      <div className="grid-container">
+      <div className="grid-contner">
         <div className="card">
           <h2>Discord Bots <i className="fa-brands fa-discord"></i></h2>
           <ul>
@@ -78,6 +78,7 @@ const Projects: React.FC = () => {
           </p>
           <div className="media-container">
             <img src={RobbieGif} alt="Robbie" id='robbie'/>
+            <br className='mobi'></br>
             <div className="video-container">
               <video controls>
                 <source src={RobbieVideo} type="video/mp4" />

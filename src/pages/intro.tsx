@@ -1,10 +1,10 @@
 import React from 'react';
-import '../App.css';
+import '../css/intro.css';
 
 const Intro: React.FC = () => {
   return (
     <div className='centering'>
-      <div className="container">
+      <div className="intro-container">
         <div className='sayMyName'>
           <h2>Say my name</h2>
           <p>Well, as you may have gathered, I go by the name Antoine Salameh, 

@@ -1,5 +1,4 @@
-/* Default styles for grid-container and card */
-.grid-container {
+.grid-contner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -114,13 +113,42 @@
 }
 
 .fa-brands{
-    font-size: 30px;
+  font-size: 30px;
 }
+
+.mobi {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
   
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .grid-container {
-      grid-template-columns: 1fr; /* Change to single column layout */
-    }
+  .grid-contner {
+    grid-template-columns: 1fr;
   }
-  
+  .card {
+    width: 100%;
+  }
+  .card > ul  {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .socials-qr{
+    display: none;
+  }
+  .website-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  #robbie,
+  .card video {
+    width: 200%;
+    height: auto;
+  }
+  .mobi {
+    display: block;
+  }
+}
